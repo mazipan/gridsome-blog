@@ -1,6 +1,12 @@
 # Gridsome Blog Starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46a9900d-882f-4e5a-86d1-f5423628a9a2/deploy-status)](https://app.netlify.com/sites/gridsome-blog/deploys)
+
 > A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+
+## Live Site
+
+[https://gridsome-blog.netlify.com/](https://gridsome-blog.netlify.com/)
 
 ## Features
 - Beautiful and simple design.
