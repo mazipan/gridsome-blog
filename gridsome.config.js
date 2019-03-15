@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Gridsome Blog by @mazipan',
   siteDescription: 'An example to create Gridsome\'s Blog with Gridsome Blog Starter template',
+  siteUrl: 'https://gridsome-blog.netlify.com',
 
   plugins: [
     {
@@ -22,6 +23,22 @@ module.exports = {
             typeName: 'Tag',
             route: '/tag/:id',
             create: true
+          }
+        }
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        config: {
+          '/articles/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
           }
         }
       }
