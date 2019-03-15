@@ -13,7 +13,7 @@ description: Bagaimana memulai membuat Blog statis keren menggunakan Vue.js stat
 
 "Blog statis" merupakan blog yang kita buat tanpa menggunakan *backend*, sehingga bisa kita deploy dengan mudah pada berbagai static host seperti Github Pages, Netlify, Firebase dan lainnya. Blog statis ini biasanya menggunakan templat seperti *Markdown* yang akan *build* sesaat sebelum *deploy* untuk menghasilkan file statis HTML, CSS dan JavaScript.
 
-## Apa itu Gridsome
+## Apa itu Gridsome?
 
 ![Gridsome Logo](./images/logo-poster.png)
 
@@ -21,7 +21,7 @@ description: Bagaimana memulai membuat Blog statis keren menggunakan Vue.js stat
 
 Sudah bukan hal baru bahwa ekosistem di Vue belum sekuat dan sekomplit di React, namun saya pribadi selalu terkagum-kagum dengan mereka yang bersusah payah membuatkan alternatif bagi banyak hal hebat di React untuk Vue. Gridsome, seperti ingin mengekor pada kesuksesan Nuxt yang mencoba mengadopsi Next.js di React. Nuxt yang beberapa tahun lalu belum terdengar suaranya hari ini bahkan telah menjadi pilihan terbaik ketika akan membuat sebuah aplikasi diatas Vue.
 
-**Mengapa Gridsome lebih baik dibandingkan Nuxt?**
+## Mengapa Gridsome lebih baik dibandingkan Nuxt?
 
 Nuxt pada dasarnya diperuntukkan untuk membuat aplikasi web di Vue yang membutuhkan rendering di server, Nuxt lebih khusus sangat disiapkan untuk menangani berbagai kebutuhan kompleks yang biasanya muncul ketika membuat sebuah aplikasi web. Meskipun Nuxt mempunyai kemampuan untuk men-*generate* file statis yang bisa kita gunakan juga untuk membuat blog statis, namun sebenarnya ini merupakan fungsi yang *nice-to-have* bagi Nuxt.
 
@@ -61,7 +61,7 @@ $ gridsome develop
 $ gridsome build
 ```
 
-> Kalian bisa lihat hasil membuat Blog dengan gridsome starter di repository https://github.com/mazipan/gridsome-blog ↗️](https://github.com/mazipan/gridsome-blog)
+> Kalian bisa lihat hasil membuat Blog dengan gridsome starter di repository [https://github.com/mazipan/gridsome-blog ↗️](https://github.com/mazipan/gridsome-blog)
 
 ## Deploy ke Netlify
 
