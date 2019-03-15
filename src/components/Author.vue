@@ -12,8 +12,7 @@
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="https://github.com/mazipan/gridsome-blog">GitHub</a>
 		</p>
 
 	</div>
