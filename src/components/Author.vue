@@ -12,7 +12,7 @@
 		</p>
 
 		<p class="author__links">
-			<a href="https://github.com/mazipan/gridsome-blog">GitHub</a>
+			<a href="https://mazipan.space/">GitHub</a>
 		</p>
 
 	</div>
