@@ -1,35 +1,33 @@
-# Gridsome Blog Starter
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46a9900d-882f-4e5a-86d1-f5423628a9a2/deploy-status)](https://app.netlify.com/sites/gridsome-blog/deploys)
-
-> A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+# Gridsome Blog
 
 ## Live Site
 
-[https://gridsome-blog.netlify.com/](https://gridsome-blog.netlify.com/)
+[https://mazipan.github.io/gridsome-blog](https://mazipan.github.io/gridsome-blog)
 
-## Features
-- Beautiful and simple design.
-- Markdown for content.
-- Tags support.
-- Dark / Light toggle.
-- CSS variables, SCSS & BEM for styling.
-- 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
+## Starter
 
-## Demo URL
+- https://github.com/gridsome/gridsome-starter-blog
 
-https://gridsome-starter-blog.netlify.com
+## Development
 
-## Install
+We are using [pnpm](https://pnpm.js.org/), please read the [Installation](https://pnpm.js.org/en/installation) section first.
 
-### 1. Install Gridsome CLI tool if you don't have
+``` bash
+# install dependencies
+pnpm install
 
-`npm install --global @gridsome/cli`
+# serve with demo page
+pnpm run develop
 
-### 2. Install this starter
+# build for production
+pnpm run build
+```
 
-1. `gridsome create my-gridsome-site https://github.com/gridsome/gridsome-starter-blog.git`
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Support me
+
+- Via [trakteer](https://trakteer.id/mazipan)
+- Direct support, [send me an email](mailto:mazipanneh@gmail.com)
+
+---
+
+Copyright © 2020 Built with ❤️ by Irfan Maulana
