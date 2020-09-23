@@ -6,6 +6,7 @@
 
     <div class="posts">
       <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
     </div>
   </Layout>
 </template>

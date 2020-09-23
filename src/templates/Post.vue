@@ -16,6 +16,9 @@
 
       <div class="post__content" v-html="$page.post.content" />
 
+
+      <InArticleAdsense data-ad-client="ca-pub-5442972248172818" data-ad-slot="7974047383" />
+
       <div class="post__footer">
         <PostTags :post="$page.post" />
       </div>

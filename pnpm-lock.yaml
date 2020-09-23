@@ -6,8 +6,10 @@ dependencies:
   '@gridsome/transformer-remark': 0.6.3_gridsome@0.7.21
   gridsome: 0.7.21
   vue: 2.6.12
+  vue-google-adsense: 1.8.3_vue-script2@2.1.0+vue@2.6.12
   vue-meta: 2.4.0
   vue-router: 3.4.3
+  vue-script2: 2.1.0
   vue-template-compiler: 2.6.12
 devDependencies:
   babel-loader: 8.1.0_webpack@4.44.2
@@ -9709,6 +9711,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
+  /vue-google-adsense/1.8.3_vue-script2@2.1.0+vue@2.6.12:
+    dependencies:
+      vue: 2.6.12
+      vue-script2: 2.1.0
+    dev: false
+    peerDependencies:
+      vue: ^2.6.11
+      vue-script2: 2.1.0
+    resolution:
+      integrity: sha512-+2Ofu0p4hjJuvbilswnarrFc+F4Tqd7IXbvsSzFY82r8p6TT4Hb+5nokrous0XXanEk5IKJIjE9ApD2NPsS8bg==
   /vue-hot-reload-api/2.3.4:
     dev: false
     resolution:
@@ -9747,6 +9759,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-BADg1mjGWX18Dpmy6bOGzGNnk7B/ZA0RxuA6qedY/YJwirMfKXIDzcccmHbQI0A6k5PzMdMloc0ElHfyOoX35A==
+  /vue-script2/2.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-EDUOjQBFvhkJXwmWuUR9ijlF7/4JtmvjXSKaHSa/LNTMy9ltjgKgYB68aqlxgq8ORdSxowd5eo24P1syjZJnBA==
   /vue-server-renderer/2.6.12:
     dependencies:
       chalk: 1.1.3
@@ -10073,8 +10089,10 @@ specifiers:
   postcss-loader: ^4.0.2
   sass-loader: ^10.0.2
   vue: ^2.6.10
+  vue-google-adsense: ^1.8.3
   vue-meta: ^2.0.5
   vue-router: ^3.0.7
+  vue-script2: ^2.1.0
   vue-style-loader: ^4.1.2
   vue-template-compiler: ^2.6.10
   webpack: ^4.35.3
