@@ -7,8 +7,8 @@
 module.exports = {
   siteName: 'Gridsome Blog by @mazipan',
   siteDescription: 'An example to create Gridsome\'s Blog with Gridsome Blog Starter template',
-  siteUrl: 'https://gridsome-blog.netlify.com',
-
+  siteUrl: 'https://mazipan.github.io/gridsome-blog',
+	pathPrefix: '/gridsome-blog',
   plugins: [
     {
       // Create posts from markdown files
