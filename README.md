@@ -1,5 +1,7 @@
 # Gridsome Blog
 
+[![Travis](https://img.shields.io/travis/mazipan/gridsome-blog.svg)](https://travis-ci.org/mazipan/gridsome-blog) ![Dependencies](https://img.shields.io/david/mazipan/gridsome-blog.svg) ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fmazipan.github.io%2Fgridsome-blog%2F)
+
 ## Live Site
 
 [https://mazipan.github.io/gridsome-blog](https://mazipan.github.io/gridsome-blog)
