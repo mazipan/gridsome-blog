@@ -14,12 +14,12 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.3",
     "gridsome": "^0.7.21",
-    "vue": "^2.6.10",
-    "vue-google-adsense": "^1.8.3",
-    "vue-meta": "^2.0.5",
-    "vue-router": "^3.0.7",
+    "vue": "^2.6.12",
+    "vue-google-adsense": "^1.9.0",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.3",
     "vue-script2": "^2.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.6",
@@ -27,7 +27,7 @@
     "@vue/eslint-config-standard": "5.1.2",
     "babel-loader": "^8.1.0",
     "cache-loader": "^4.1.0",
-    "core-js": "^2.6.9",
+    "core-js": "^2.6.11",
     "css-loader": "^4.3.0",
     "eslint": "7.9.0",
     "eslint-config-prettier": "^6.11.0",
@@ -43,7 +43,7 @@
     "postcss-loader": "^4.0.2",
     "sass-loader": "^10.0.2",
     "vue-style-loader": "^4.1.2",
-    "webpack": "^4.35.3",
+    "webpack": "^4.44.2",
     "webpack-hot-middleware": "^2.25.0"
   },
   "lint-staged": {

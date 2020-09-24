@@ -6,7 +6,7 @@ dependencies:
   '@gridsome/transformer-remark': 0.6.3_gridsome@0.7.21
   gridsome: 0.7.21
   vue: 2.6.12
-  vue-google-adsense: 1.8.3_vue-script2@2.1.0+vue@2.6.12
+  vue-google-adsense: 1.9.0_vue-script2@2.1.0+vue@2.6.12
   vue-meta: 2.4.0
   vue-router: 3.4.3
   vue-script2: 2.1.0
@@ -17,7 +17,7 @@ devDependencies:
   '@vue/eslint-config-standard': 5.1.2_7fea5be38b7ab93d4df9a9079de2a73c
   babel-loader: 8.1.0_webpack@4.44.2
   cache-loader: 4.1.0_webpack@4.44.2
-  core-js: 3.6.5
+  core-js: 2.6.11
   css-loader: 4.3.0_webpack@4.44.2
   eslint: 7.9.0
   eslint-config-prettier: 6.11.0_eslint@7.9.0
@@ -2881,6 +2881,12 @@ packages:
       semver: 7.0.0
     resolution:
       integrity: sha512-7ItTKOhOZbznhXAQ2g/slGg1PJV5zDO/WdkTwi7UEOJmkvsE32PWvx6mKtDjiMpjnR2CNf6BAD6sSxIlv7ptng==
+  /core-js/2.6.11:
+    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
   /core-js/3.6.5:
     requiresBuild: true
     resolution:
@@ -10885,16 +10891,16 @@ packages:
       eslint: '>=5.0.0'
     resolution:
       integrity: sha512-Kr21uPfthDc63nDl27AGQEhtt9VrZ9nkYk/NTftJ2ws9XiJwzJJCnCr3AITQ2jpRMA0XPGDECxYH8E027qMK9Q==
-  /vue-google-adsense/1.8.3_vue-script2@2.1.0+vue@2.6.12:
+  /vue-google-adsense/1.9.0_vue-script2@2.1.0+vue@2.6.12:
     dependencies:
       vue: 2.6.12
       vue-script2: 2.1.0
     dev: false
     peerDependencies:
-      vue: ^2.6.11
+      vue: ^2.6.12
       vue-script2: 2.1.0
     resolution:
-      integrity: sha512-+2Ofu0p4hjJuvbilswnarrFc+F4Tqd7IXbvsSzFY82r8p6TT4Hb+5nokrous0XXanEk5IKJIjE9ApD2NPsS8bg==
+      integrity: sha512-OI9DcVvPpC5bt2DPnudkJSzylqSrFS3Al2jS/5BfOBMY2XYtZ2jsPuwFtrQCe6okk06obwndGNimZMkUfTiJ+g==
   /vue-hot-reload-api/2.3.4:
     dev: false
     resolution:
@@ -11292,7 +11298,7 @@ specifiers:
   '@vue/eslint-config-standard': 5.1.2
   babel-loader: ^8.1.0
   cache-loader: ^4.1.0
-  core-js: ^2.6.9
+  core-js: ^2.6.11
   css-loader: ^4.3.0
   eslint: 7.9.0
   eslint-config-prettier: ^6.11.0
@@ -11308,12 +11314,12 @@ specifiers:
   postcss-loader: ^4.0.2
   prettier: ^2.1.2
   sass-loader: ^10.0.2
-  vue: ^2.6.10
-  vue-google-adsense: ^1.8.3
-  vue-meta: ^2.0.5
-  vue-router: ^3.0.7
+  vue: ^2.6.12
+  vue-google-adsense: ^1.9.0
+  vue-meta: ^2.4.0
+  vue-router: ^3.4.3
   vue-script2: ^2.1.0
   vue-style-loader: ^4.1.2
-  vue-template-compiler: ^2.6.10
-  webpack: ^4.35.3
+  vue-template-compiler: ^2.6.12
+  webpack: ^4.44.2
   webpack-hot-middleware: ^2.25.0
