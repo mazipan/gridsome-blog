@@ -58,8 +58,8 @@ export default {
 </script>
 
 <page-query>
-query Post ($path: String!) {
-  post: post (path: $path) {
+query Post ($id: ID!) {
+  post: post (id: $id) {
     title
     path
     date (format: "D. MMMM YYYY")

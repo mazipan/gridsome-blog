@@ -8,7 +8,13 @@ module.exports = {
   siteName: 'Gridsome Blog by @mazipan',
   siteDescription: 'An example to create Gridsome\'s Blog with Gridsome Blog Starter template',
   siteUrl: 'https://mazipan.github.io/gridsome-blog',
-	pathPrefix: '/gridsome-blog',
+  pathPrefix: '/gridsome-blog',
+
+  templates: {
+    Post: '/:slug',
+    Tag: '/tag/:id'
+  },
+
   plugins: [
     {
       // Create posts from markdown files
@@ -16,12 +22,10 @@ module.exports = {
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
-        route: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            route: '/tag/:id',
             create: true
           }
         }
